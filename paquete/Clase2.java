@@ -1,0 +1,12 @@
+package paquete;
+
+public class Clase2 extends Clase1 {
+
+    public void setDataClase1() {
+        this.x = 8;     //public
+        this.setY(42);//pirvate
+        this.z = 22;    //protected
+        this.w = 40;    //default
+        this.restW();   //default 
+    }
+}
